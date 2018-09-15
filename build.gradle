@@ -1,0 +1,31 @@
+def jdkversion = System.getProperty("jdkversion") ?: "1.7"
+allprojects  {
+  apply plugin: 'maven'
+
+  group = 'com.py.shoppingmgr'
+  version = '1.0-SNAPSHOT'
+}
+
+subprojects {
+  apply plugin: 'java'
+  sourceCompatibility = jdkversion
+  targetCompatibility = jdkversion
+
+  repositories {
+    mavenLocal()
+    
+    maven { url "http://nexus.zj.chinamobile.com:8081/nexus/content/groups/public/" }
+    maven { url "http://repo.maven.apache.org/maven2" }
+  }
+  tasks.withType(JavaCompile) {
+      options.encoding = "UTF-8"
+  }
+  dependencies {
+//    compile group: 'com.asiainfo.crm.other', name: 'slf4j-log4j12', version:'1.6.1'
+//    compile group: 'com.asiainfo.crm.other', name: 'slf4j-api', version:'1.6.1'
+//    compile group: 'com.asiainfo.crm.appframe', name: 'log4j', version:'1.2.17'
+
+
+  }
+
+}

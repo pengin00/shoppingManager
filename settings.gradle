@@ -1,0 +1,3 @@
+rootProject.name = 'shoppingmgr'
+
+//project(':sec-inter').projectDir = "$rootDir/sec-inter" as File
