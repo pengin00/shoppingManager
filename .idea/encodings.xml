@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bo/build.gradle" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/build.gradle" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/common/build.gradle" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/controller/build.gradle" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/dao/build.gradle" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/service/build.gradle" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/settings.gradle" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/shop/build.gradle" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/web/build.gradle" charset="GB2312" />
   </component>
 </project>

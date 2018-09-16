@@ -1,3 +1,8 @@
 rootProject.name = 'shoppingmgr'
 
-//project(':sec-inter').projectDir = "$rootDir/sec-inter" as File
+include('web')
+include('controller')
+include('service')
+include('dao')
+include('bo')
+include('common')

@@ -1,4 +1,4 @@
-package com.py.shoppingmgr.user;
+package com.py.sm.user;
 
 /**
  * Created by pengying on 2018/9/15.
