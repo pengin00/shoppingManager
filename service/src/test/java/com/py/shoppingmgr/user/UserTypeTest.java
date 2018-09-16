@@ -5,6 +5,11 @@ package com.py.shoppingmgr.user;
  */
 public class UserTypeTest {
     public void testget(){
-
+        System.out.println("111111");
     }
+
+    public static void main(String[] args){
+        new UserTypeTest().testget();
+    }
+
 }

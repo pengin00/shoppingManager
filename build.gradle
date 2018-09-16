@@ -1,4 +1,4 @@
-def jdkversion = System.getProperty("jdkversion") ?: "1.7"
+def jdkversion = System.getProperty("jdkversion") ?: "1.8"
 allprojects  {
 
 }
@@ -20,6 +20,8 @@ subprojects {
       options.encoding = "UTF-8"
   }
   dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
 //    compile group: 'com.asiainfo.crm.other', name: 'slf4j-log4j12', version:'1.6.1'
 //    compile group: 'com.asiainfo.crm.other', name: 'slf4j-api', version:'1.6.1'
 //    compile group: 'com.asiainfo.crm.appframe', name: 'log4j', version:'1.2.17'
